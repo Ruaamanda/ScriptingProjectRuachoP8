@@ -13,7 +13,7 @@ public class DualAxisExample : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -25,7 +25,10 @@ public class DualAxisExample : MonoBehaviour
         float yPos = v * vRange;
 
         transform.position = new Vector3(xPos, 0, yPos);
-        horizontalValueDisplayText.text = h.ToString("F2");
-        verticalValueDisplayText.text = v.ToString("F2");
+        Debug.Log(h.ToString("F2"));
+        Debug.Log(v.ToString("F2"));
     }
 }
+
+
+
