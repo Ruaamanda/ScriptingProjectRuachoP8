@@ -348,7 +348,7 @@ Transform:
   m_GameObject: {fileID: 722505124}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40025693, y: -0.02398704, z: 0.0104810875, w: 0.916029}
-  m_LocalPosition: {x: -0.00026273727, y: 0.48730183, z: 0.87761396}
+  m_LocalPosition: {x: 0.001, y: 0.491, z: 0.864}
   m_LocalScale: {x: 0.40738893, y: 0.65083355, z: 0.15056501}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -596,7 +596,7 @@ Transform:
   m_GameObject: {fileID: 851215114}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.25, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -663,8 +663,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9e4d5d7b909d474dbe0cb873b3cc2c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 0}
-  firePosition: {fileID: 8967221129120780733, guid: e1da7744d9d471e40ad9605f71fa552e, type: 3}
+  bulletPrefab: {fileID: 2677503836779355023, guid: e1da7744d9d471e40ad9605f71fa552e, type: 3}
+  firePosition: {fileID: 722505125}
   bulletSpeed: 20
 --- !u!54 &1256136190
 Rigidbody:
@@ -772,16 +772,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1256136186}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.026176924, z: 0, w: 0.99965733}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1.5, z: 3}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.551, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 12480043}
   - {fileID: 1652893778}
   - {fileID: 722505125}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 3, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1652893777
 GameObject:
   m_ObjectHideFlags: 0
